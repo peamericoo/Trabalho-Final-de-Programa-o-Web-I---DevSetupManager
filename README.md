@@ -2,6 +2,18 @@
   <img src="assets/demo.gif" alt="DevSetup Manager. O Flask sobe na porta 5000 com painel, cadastro, busca e exportação em CSV." width="820">
 </p>
 
+## A tela
+
+Rodei o Flask e cadastrei três equipamentos pela própria rota de cadastro. O painel e o inventário abaixo são o resultado disso.
+
+<p align="center">
+  <img src="assets/tela-painel.png" alt="Dashboard do DevSetup Manager com 3 itens, R$ 11178 investidos e 1 em manutenção." width="820">
+</p>
+
+<p align="center">
+  <img src="assets/tela-inventario.png" alt="Inventário do DevSetup Manager listando os equipamentos cadastrados." width="820">
+</p>
+
 DevSetup Manager é o inventário de TI que eu fiz na disciplina de Programação Web. Um lugar simples para cadastrar notebook, monitor e periférico, ver o total, o valor somado e o que está em manutenção.
 
 O nome do repositório continua o da entrega da matéria. O produto é o DevSetup Manager.
