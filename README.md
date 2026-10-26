@@ -4,7 +4,7 @@
 
 ## A tela
 
-Rodei o Flask e cadastrei três equipamentos pela própria rota de cadastro. O painel e o inventário abaixo são o resultado disso.
+O banco nasce com três equipamentos quando está vazio. O painel e o inventário abaixo são esses.
 
 <p align="center">
   <img src="assets/tela-painel.png" alt="Dashboard do DevSetup Manager com 3 itens, R$ 11178 investidos e 1 em manutenção." width="820">

@@ -27,6 +27,16 @@ def init_db():
             valor REAL
         )
     ''')
+    total = conn.execute("SELECT COUNT(*) FROM equipamentos").fetchone()[0]
+    if total == 0:
+        conn.executemany(
+            "INSERT INTO equipamentos (nome, categoria, status, valor) VALUES (?, ?, ?, ?)",
+            [
+                ("Dell XPS 15", "Notebook", "Em uso", 8999),
+                ("Monitor LG 27", "Monitor", "Disponível", 1499),
+                ("Teclado Keychron", "Periférico", "Manutenção", 680),
+            ],
+        )
     conn.commit()
     conn.close()
 
